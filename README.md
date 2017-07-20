@@ -9,7 +9,6 @@ Add this line to your application's Gemfile:
 ```ruby
 gem 'dcarretero_view_tool'
 ```
-
 And then execute:
 
     $ bundle
@@ -20,7 +19,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+```ruby
+DcarreteroViewTool::Renderer.copyright name: "Diego Carretero", message: "All rights reserved."
+```
 
 ## Development
 
